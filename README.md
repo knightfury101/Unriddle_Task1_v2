@@ -5,7 +5,7 @@ This is a Note Taking Text Editor App powered with AI. I've used NextJS App Rout
 
 Using ShadcnUI, it also has dark and light theme. Zod and React-Hook-Form for form validation.
 
-
+In this app, users can login to the project to start creating notes. Users can ask AI Chatbot any queries and questions related to the Notes and the AI will go through every note to get the desired output.
 
 ## Deployment
 
