@@ -8,6 +8,15 @@ import {
 } from "@/lib/validation/note";
 import { auth } from "@clerk/nextjs";
 
+export const maxDuration = 60; // This function can run for a maximum of 5 seconds
+export const dynamic = "force-dynamic";
+
+export function GET(request: Request) {
+  return new Response("Vercel", {
+    status: 200,
+  });
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
